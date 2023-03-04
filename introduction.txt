@@ -1,0 +1,63 @@
+An Algorithm is a set of well-defined instructions to solve a perticuar problem.
+
+Algorithm to add two numbers
+
+input two numbers a,b
+add the 2 numbers using (+) operator and return the value
+output sum of a & b.
+
+Characteristics of Algorithm
+=> well defined input and output.
+=> Each step should be clear and unambiguous
+=> Language independent
+
+Why Algorithm ? 
+Learning Algorithm translates to learning different techniques to efficiently solve those problems.
+One problem can be solved i many ways using different algorithm, each algorithm comes with its own tradeoffs when it comes to performance.
+
+Algorithm Analysis
+We evaluate the performance of an algorithm in terms of its input size.
+Time complexity => An amount of time taken by algorithm to run, as a function of input size.
+Space complexity => An amount of memory taken by an algorithm to run, as a function of input size.
+
+# if your App needs to be quick and has plenty of memory to work with, you don't have to worry about space complexity.
+
+# if you have vey little memory to work with, you should pick a solution that is relatively slower but needs less space.
+
+Complexity Representation
+Asymptotic notations are used to represent complexity's.(Mathematical tools to represent time and space complexity)
+
+    1. BIG-O notation => worst case complexity ✔️ 
+        # Characteristics of BIG-O Notation
+           1. it is expressed in terns of the input
+           2. it focuses on the bigger picture without getting caught up in the minute details
+    2. Omega notation => Best case complexity ❌
+    3. Theta notation => Average case complexity ❌
+
+Time complexity of Objects:
+    insert => O(1)
+    remove => O(1)
+    access => O(1)
+    Search => O(n)
+
+        Object methods and there time complexity
+            Object.keys() => O(n) 
+            Object.values() => O(n) 
+            Object.entries() => O(n) 
+
+Time complexity of array:
+    insert and remove from end => 0(1)
+    insert and remove from beginning => 0(n) // because index will alter for every elements in an array
+    access => O(1)
+    Search => O(n)
+
+        Array methods and there time complexity
+            push/pop => O(1)
+            Shift / unshift / concat / slice / splice => O(n)
+            forEach / map / filter / reduce => O(n)
+    
+     
+
+
+
+
