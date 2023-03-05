@@ -1,0 +1,12 @@
+Linear Search pseudocode : 
+    1. start at the first element in the array and move towards the last.
+    2. At each element though, check if the element is equal to the target element.
+    3. if element found, return the index of the element.
+    4. if element not found, return -1.
+
+Binary Search: only worked on a sorted array
+    Binary Search pseudocode : 
+        1.if the array is empty, return -1 as the element cannot be found.
+        2. if the array has elements, find the middle element in the array. if target is equal to the middle element, return the middle element index
+        3. if target is less than the middle element, binary search left half of the array.
+        4. if target is greater than the middle element, binary search right half of the array.

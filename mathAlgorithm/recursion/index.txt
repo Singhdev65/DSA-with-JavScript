@@ -1,0 +1,12 @@
+Recursion is a problem solving technique where the solution depends on the solutions to smaller instances of the same problem.
+
+Recursion is when a funtion calls itself.
+
+important points about recursion: 
+    1. Every recursive solution need to have a base case - a condition to terminate the recursion.
+    2. Recursion might simplify solving a problem but it does not always translate to  faster solution.
+
+Tips for recursive problem:
+    1. Figure out how to break down the problem into smaller versions of the same problem.
+    2. identify the base case for recursion.
+    
