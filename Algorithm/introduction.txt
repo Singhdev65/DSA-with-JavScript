@@ -1,4 +1,4 @@
-An Algorithm is a set of well-defined instructions to solve a perticuar problem.
+An Algorithm is a set of well-defined instructions to solve a particular problem.
 
 Algorithm to add two numbers
 
