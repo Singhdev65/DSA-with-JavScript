@@ -1,0 +1,20 @@
+Algorithm design techniques
+    Bruce force : 
+        => Simple and exhaustive technique that evaluates every possible outcome to find the best solution. 
+        => Eg : Linear Search
+
+    Greedy : 
+        => Choose the best option at the current time. without any consideration for future.
+        => Eg : Dijkstra's algorithm, Prim's algorithm, and Kruskal's algorithm.
+
+    Divide and conquer : 
+        => divide the problem into smaller sub-problems. Each sub-problem is then solved and the partial solutions are recombined to determine the overall solution.
+        => Eg : Binary Search, Quick Sort, Merge Sort and Tower of Hanoi
+
+    Dynamic Programming : 
+        => Divide the problem into smaller sub-problems. Break it down into smaller but overlapping sub problems. Store the result and reuse it for the sam sub problems. This is called memoization and is a optimization technique that improves the time complexity of your algorithm.
+        => Eg : fibonacci numbers and climbing staircase
+
+    Backtracking: 
+        => Generate all possible solutions. check if the solution satisfies all the given constraints and then only proceed with generating subsequent solutions. if the constraints are not satisfied, backtrack and go on a different path to find solution.
+        => Eg: N-Queens problem
